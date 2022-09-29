@@ -4,6 +4,8 @@ async function main() {
   /*
   A ContractFactory in ethers.js is an abstraction used to deploy new smart contracts,
   so whitelistContract here is a factory for instances of our Whitelist contract.
+  "Whitelist" is the name of the contract that we're telling
+  ethers to deploy.
   */
   const whitelistContract = await ethers.getContractFactory("Whitelist");
 
